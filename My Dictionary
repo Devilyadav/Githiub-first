@@ -1,0 +1,4 @@
+dict={"phone":"elect device","engine":"part of vehicle","lion":"animal","Engineer":"fuddu"}
+word=input("Enter the word: ")
+print(dict[word])
+
