@@ -1,0 +1,21 @@
+
+a=int(input("Enter the first num: "))
+x=input("Enter operation: ")
+b=int(input("Enter the second num: "))
+
+if x=='*':
+    if a==45 or b==3:
+        print("a * b = 555")
+    else:
+        print('a','*','b','=',a*b)
+elif x=='+':
+    if a==56 or b==9:
+        print("a + b = 77")
+    else:
+        print('a','+','b','=',a+b)
+elif x=='/':
+    if a==56 or b==6:
+        print("a / b = 4")
+    else:
+        print('a','/','b','=',a/b)
+else:
